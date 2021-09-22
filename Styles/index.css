@@ -1,0 +1,93 @@
+body { 
+    display: flex;
+    justify-content: center;
+    background-color: #9DBEBB;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.red-box { 
+    max-width: 954px; 
+    max-height: 594px; 
+    width: 100%;
+    height: 100%; 
+    background-color: #BE0909;
+    position: relative;   
+    padding: 65px;
+    padding-right: 40%;
+    box-sizing: border-box;
+}
+
+.yellow-box { 
+    width: 40%;
+    height:100%;
+    position: absolute;
+    right:0;
+    top:0;
+    background-color: #FFB039;
+}
+
+.contact {
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    OUTLINE: NONE;
+    BORDER: NONE;
+    BACKGROUND: TRANSPARENT;
+    BORDER-BOTTOM: 1PX SOLID WHITE;
+    padding-bottom: 10px;
+}
+
+::placeholder {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+}
+
+.duck-img { 
+    position:absolute; 
+    right:0;
+    bottom:0;
+    max-height: 90%;
+}
+
+button { 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 202px;
+    height: 48px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    position: relative;
+    left: 120px;
+}
